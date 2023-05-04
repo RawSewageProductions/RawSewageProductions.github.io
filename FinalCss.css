@@ -1,0 +1,225 @@
+body {
+    background-color: black;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Rubik Wet Paint', sans-serif;
+    font-size: 16px;
+    color: #BFBFBF;
+}
+
+h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 44px;
+    color: #950101;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 20px 20px;
+    padding: 10px 0;
+    text-align: left;
+    font-family: 'Metal Mania', cursive;
+    color: #950101;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-family: 'Chelsea Market', cursive;
+    border: 2px solid#950101;
+}
+
+h4 {
+    font-size: 16px;
+    color: #989898;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+h5 {
+    font-size: 16px;
+    color: #BFBFBF;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    padding: 10px;
+    background-color: #950101;
+    border: 2px solid#950101;
+}
+
+h6 {
+    font-size: 30px;
+    color: #950101;
+    text-align: center;
+    font-family: Luminari, fantasy;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    padding: 0 25px;
+    background-color: #950101;
+    margin: 25px;
+}
+
+ol {
+    color: yellow;
+    padding: 30px;
+    margin: 30px;
+}
+
+a {
+    font-size: 18px;
+    color: darkred;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.bgcolor1 {}
+
+nav {
+    text-align: center;
+    font-family: 'Rubik Wet Paint', sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 100pt;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.box1 {
+    margin: 20px;
+    padding: 10px;
+}
+
+img {
+    max-width: 25%;
+    float: left;
+}
+
+h7 {
+    text-align: center;
+    display: inline-block;
+    color: #BFBFBF;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20;
+}
+
+.custom-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.LinkLogo {
+    width: 34px;
+    height: 34px;
+}
+
+
+
+
+h8 {
+    font-size: 29px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 40px;
+    }
+
+    h8 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 0 40px;
+    }
+
+    nav li {
+        font-size: 24pt;
+    }
+
+    a {
+        font-size: 24px;
+    }
+}
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 75px;
+    }
+
+    h2 {
+        font-size: 46px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 60px;
+    }
+
+    h8 {
+        font-size: 34px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    nav li {
+        font-size: 28pt;
+    }
+
+    a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    h4 {
+        font-size: 13px;
+    }
